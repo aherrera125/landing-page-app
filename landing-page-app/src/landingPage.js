@@ -9,14 +9,14 @@ function landingPage() {
             </div>
             <div id="rightDiv" className="col-md-6 justify-content-center">
                 <form>
-                    <label>First Name:</label>
-                    <input type="text" id="fname" value=""></input><br></br><br></br>
+                    <label htmlFor="fname">First Name:</label>
+                    <input id="fname" type="text" /><br></br><br></br>
 
-                    <label>Last Name:</label>
-                    <input type="text" id="lname" name="lname" value=""></input><br></br><br></br>
+                    <label htmlFor="lname">Last Name:</label>
+                    <input id="lname" type="text" /><br></br><br></br>
 
                     <label>Email:</label>
-                    <input type="text" id="email" name="email" value=""></input><br></br><br></br>
+                    <input id="email" type="text" /><br></br><br></br>
 
                     <label>Gender:</label>
                     <select id="gender">
@@ -26,6 +26,7 @@ function landingPage() {
                     </select>
                     <br></br><br></br>
                     <label>Message:</label><br></br>
+                    <textarea id="message" name="message" rows="10" cols="30"></textarea><br></br><br></br>
                     <SendButton></SendButton>
                 </form>
             </div>
