@@ -15,17 +15,17 @@ function landingPage() {
                     <label htmlFor="lname">Last Name:</label>
                     <input id="lname" type="text" /><br></br><br></br>
 
-                    <label>Email:</label>
+                    <label htmlFor="email">Email:</label>
                     <input id="email" type="text" /><br></br><br></br>
 
-                    <label>Gender:</label>
-                    <select id="gender">
-                        <option value="Select" selected>Select</option>
+                    <label htmlFor="gender">Gender:</label>
+                    <select defaultValue="Select" id="gender">
+                        <option value="Select">Select</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
-                    </select>
+                    </select>                    
                     <br></br><br></br>
-                    <label>Message:</label><br></br>
+                    <label htmlFor="message">Message:</label><br></br>
                     <textarea id="message" name="message" rows="10" cols="30"></textarea><br></br><br></br>
                     <SendButton></SendButton>
                 </form>
