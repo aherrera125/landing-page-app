@@ -1,7 +1,8 @@
-import SendButton from './sendButton';
-import './styles.css'
+import './LandingPage.css'
+import SendButton from "../sendButton/SendButton";
 
-function landingPage() {
+function LandingPage() {
+    console.log(' im ahere')
     return (
         <div className="container">
             <div id="leftDiv" className="col-md-6 d-flex justify-content-center">
@@ -34,4 +35,4 @@ function landingPage() {
     );
 }
 
-export default landingPage;
+export default LandingPage;
